@@ -12,9 +12,10 @@ Below are the resources I used to help create my client's website.
     I inspected their page and learned HTML syntax for favicons and navigation bar
 2) https://www.freecodecamp.org/news/html-div-what-is-a-div-tag-and-how-to-style-it-with-css/
     Learned "font-properties" concept
-3) 
-
-4)
+3) https://www.creativebloq.com/illustrator/create-perfect-favicon-12112760
+    Learned how to create favicons
+4) https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web
+    Learned about svg files and browser compatibility with them 
 
 
 

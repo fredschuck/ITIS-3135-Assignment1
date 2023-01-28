@@ -1,0 +1,24 @@
+.nav-header {
+    width: 75px;
+}
+
+.grid-container {
+    display: grid;
+    /* justify-content: center; */
+    background-color: #9f9f9f;
+    margin: 10px;
+
+}
+
+.box {
+    border-color: red;
+    border-width: 2px;
+}
+
+section {
+    background-color: #9f9f9f;
+}
+
+footer{
+    background-color: #9f9f9f;
+}

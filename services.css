@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    background-color:rgb(238, 245, 249);
+    background-image: url("resources/home-7.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#navigation {
+    display: grid;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    height: 0px;
+    margin: auto 3em 0;
+}
+
+.button {
+    background-color: #0077a4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3em 0px;
+  }
+
+  .button:hover {
+    background-color: #0183b3;
+  }
+
+  .active {
+    background-color: #7696a3 !important;
+  }
+
+  section {
+    height: 95vh;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding-top: 15%
+  }
+/* 
+  img {
+    border-radius: 25px 25px 0 0;
+    size: 100%;
+  } */
+
+  .card {
+    border-radius: 25px;
+    background-color: #7696a3;
+    border-color: #0077a4;
+    border-style: solid;
+    height: 15em;
+    width: 75%;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  footer{
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 0px;
+}

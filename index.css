@@ -1,24 +1,134 @@
-.nav-header {
-    width: 75px;
+body {
+    margin: 0px;
+    background-color:rgb(238, 245, 249);
 }
+#navigation {
+    display: grid;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    height: 0px;
+    margin: auto 3em 0;
+}
+
+.button {
+    background-color: #0077a4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3em 0px;
+  }
+
+  .button:hover {
+    background-color: #0183b3;
+  }
+
+  .active {
+    background-color: #7696a3 !important;
+  }
 
 .grid-container {
     display: grid;
-    /* justify-content: center; */
-    background-color: #9f9f9f;
-    margin: 10px;
-
-}
-
-.box {
-    border-color: red;
-    border-width: 2px;
 }
 
 section {
+    height: 100vh;
+}
+
+#top-section {
+    display: grid;
+    background-image: url("resources/home-7.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#bottom-section {
+    display: grid;
+    padding-bottom: 0px;
+}
+
+#logo-container {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+#logo {
+    width: 50%;
+    justify-self: center;
+    padding: 3em 0px;
+}
+
+#logo-quote {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+}
+
+#icons-container {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 3em 3em;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    justify-self: center;
+
+}
+
+.circle-icons {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     background-color: #9f9f9f;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-color: #4c4c4c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.circle-icons:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+#carousel-desc {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    width: 75%;
+    margin: 4em;
+}
+
+#carousel {
+    background-image: url("resources/home-8.jpg");
+    background-size: 100%;
+    border-radius: 15px;
+    height: 350px;
+    width: 550px;
+    
+}
+
+#carousel-text {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 footer{
-    background-color: #9f9f9f;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 0px;
 }
+
+/* .scroller {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+} */
